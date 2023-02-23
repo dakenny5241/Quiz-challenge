@@ -1,0 +1,64 @@
+// CSS code
+#quiz {
+  max-width: 700px;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: #f1f1f1;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#score {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+#question-container {
+  display: none;
+  margin: 10px 0;
+}
+
+#end-game {
+  display: none;
+}
+
+#answers {
+  margin: 10px 0;
+}
+
+#answers button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #2196f3;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#answers button:hover {
+  background-color: #1976d2;
+}
+
+#end-game p {
+  font-size: 1.2rem;
+}
+
+#end-game input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #2196f3;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#end-game input:hover {
+  background-color: #1976d2;
+}

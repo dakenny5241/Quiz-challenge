@@ -1,0 +1,27 @@
+// HTML code
+<div id="quiz">
+  <h1>JavaScript Quiz</h1>
+  <div id="score">
+    <h2>Score: <span id="score-value">0</span></h2>
+  </div>
+  <button id="start" onclick="startQuiz()">Start Quiz</button>
+  <div id="question-container">
+    <h2>Question:</h2>
+    <p id="question"></p>
+    <div id="answers">
+      <button class="answer" onclick="checkAnswer(this.innerHTML);">Answer 1</button>
+      <button class="answer" onclick="checkAnswer(this.innerHTML);">Answer 2</button>
+      <button class="answer" onclick="checkAnswer(this.innerHTML);">Answer 3</button>
+      <button class="answer" onclick="checkAnswer(this.innerHTML);">Answer 4</button>
+    </div>
+  </div>
+  <div id="end-game">
+    <h2>Game Over!</h2>
+    <h3>Your Score: <span id="end-score-value">0</span></h3>
+    <form>
+      <label for="name">Enter Your Initials:</label>
+      <input type="text" id="name"/>
+      <button id="submit-score" onclick="submitScore();">Submit Score</button>
+    </form>
+  </div>
+</div>
