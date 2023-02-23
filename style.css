@@ -1,11 +1,11 @@
-// CSS code
+/*  CSS code */
 #quiz {
   max-width: 700px;
   margin: 10px auto;
   border-radius: 10px;
   padding: 20px;
   font-family: sans-serif;
-  background-color: #f1f1f1;
+  background-color: #894e4e;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 
