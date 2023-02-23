@@ -1,6 +1,6 @@
 // JavaScript code
 let score = 0;
-/let currentQuestion = 0;
+let currentQuestion = 0;
 let questions = [
   {
     question: 'What is the syntax for creating a function in JavaScript?',
@@ -102,4 +102,3 @@ document.getElementById("submit-score").addEventListener("click", function() {
   localStorage.setItem("highScores", JSON.stringify(highScores));
   window.location.href = "highscores.html";
 });
-``` 
